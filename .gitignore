@@ -1,0 +1,7 @@
+/data/raw/
+*.jsonl
+*.pkl
+*.cache
+
+__pycache__/
+*.pyc
