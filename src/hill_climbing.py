@@ -1,10 +1,5 @@
 # src/hill_climbing.py
 
-import sys
-import os
-# این دو خط برای این است که بتوانیم فایل llm_oracle را به درستی ایمپورت کنیم
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-
 from llm_oracle import generate_mutations, evaluate_prompt
 
 def run_hill_climbing(initial_prompt, max_steps=10, n_mutations=3):
